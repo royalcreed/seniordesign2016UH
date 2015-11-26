@@ -47,4 +47,52 @@ table {
 
 
 /* BELOW ARE CUSTOM CSS FILES*/
+header {
+	 width: 100%;
+    height: 80px;
+}
 
+#LOGO {
+margin-left: 30px;
+margin-top: 25px;
+float: left;
+}
+
+#Title {
+
+	float: left;
+    margin-top: 42px;
+    margin-left: 23px;
+    font-size: 25px;
+}
+
+#search-box {
+	width: 145px;
+    float: left;
+    padding-right: 2px;
+}
+#search-top {
+    float: right;
+    margin-top: 38px;
+}
+
+.NAVBAR {
+background-color: #286090;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #ffffff;
+
+}
+
+.navbar-default .navbar-nav>.active>a {
+background-color: orange;
+color: #286090;
+
+}
+
+ul>li {
+padding-right: 35px;
+
+}
