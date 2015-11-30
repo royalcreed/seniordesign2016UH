@@ -85,17 +85,23 @@ header {
 }
 
 .navbar-default .navbar-nav>li>a {
-color: #ffffff;
+	color: #ffffff;
 
 }
 
 .navbar-default .navbar-nav>.active>a {
-background-color: orange;
-color: #286090;
-
+	background-color: orange;
+	color: #286090;
 }
 
 ul>li {
 padding-right: 35px;
 
+}
+
+.Left-sidebar {
+	float: left;
+    width: 25%;
+    height: 300px;
+     border-style: solid;
 }
