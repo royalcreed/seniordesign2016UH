@@ -55,32 +55,32 @@ header {
     height: 80px;
 }
 
-#LOGO {
-margin-left: 30px;
-margin-top: 25px;
-float: left;
+#Sitelogo {
+	margin-left: 30px;
+	margin-top: 25px;
+	float: left;
 }
 
-#Title {
-
+#SiteTitle {
 	float: left;
     margin-top: 42px;
     margin-left: 23px;
     font-size: 25px;
 }
 
-#search-box {
+#Search-box {
 	width: 145px;
     float: left;
     padding-right: 2px;
 }
-#search-top {
+
+#Search-top {
     float: right;
     margin-top: 38px;
 }
 
-.NAVBAR {
-background-color: #286090;
+.Navbarcustom {
+	background-color: #286090;
 
 }
 
