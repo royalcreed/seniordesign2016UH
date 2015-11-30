@@ -101,7 +101,40 @@ padding-right: 35px;
 
 .Left-sidebar {
 	float: left;
-    width: 25%;
+    width: 20%;
     height: 300px;
-     border-style: solid;
+    border-style: dashed;
+    border-color: black;
+    border-width: thin;
+}
+
+.MainCarousel {
+	float: right;
+	width: 80%;
+	height: 340px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.Carousel-content {
+	height: 340px;
+}
+
+.Carousel-content img {
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Right-appcontent {
+	float: right;
+    width: 70%;
+    height: 300px;
+    border-style: dashed;
+    border-color: black;
+    border-width: thin;
+    margin-right: 30px;
+    margin-top: 15px;
+
 }
