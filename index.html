@@ -25,7 +25,7 @@
   <section class="Header">
   <img id="Sitelogo" alt="test" src="http://www.uhc.com/content/dam/uhcdotcom/en/responsive/header-logo.png" />
   <div id="SiteTitle">| App Store</div>
-   <div id="Search-top">
+   <div class="hidden-xs" id="Search-top">
    <div id="Search-box">
     <input type="text" class="form-control" placeholder="Search">
   </div>
@@ -63,6 +63,11 @@
                       <li role="separator" class="divider"></li>
                       <li><a href="#">One more separated link</a></li>
                   </ul>
+                  <form role="" class="navbar-form navbar-left hidden-md hidden-lg hidden-sm">
+                <div class="form-group">
+                  <input type="text" placeholder="Search" class="form-control">
+                </div>
+            </form>
               </li>
           </ul>
      		 </div><!-- /.navbar-collapse -->
@@ -71,7 +76,7 @@
 <!-- END NAVBAR --> 
 
 <!-- BEGIN LEFT SIDEBAR --> 
-  <div class="Left-sidebar">
+  <div class="Left-sidebar hidden-xs">
     <div class="LSB-topsection">
       <br><a href="#"><h3>Popular</h3></a><br><br> 
     	<a href="#"><h3>New</h3></a><br><br>
@@ -92,8 +97,8 @@
 <!-- END LEFT SIDEBAR --> 
 
 <!-- BEGIN CAROUSEL--> 
-    <section class="MainCarousel">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <section class="MainCarousel hidden-xs">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -137,7 +142,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div> 
-  </div>
+     </div>
     </section>
 <!--End CAROUSEL--> 
 
