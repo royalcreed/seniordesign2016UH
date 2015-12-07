@@ -47,6 +47,8 @@ table {
 
 
 /************************* BELOW ARE CUSTOM CSS FILES ***************************/
+
+
 html, body {
 	overflow:auto;
 }
@@ -55,7 +57,10 @@ body {
 	width: 100%;
 	height:100%;
 	background-color: #F1F1F1;
+	font-family: Droid Serif;
 }
+
+
 
 .Header {
 	width: 100%;
@@ -109,11 +114,9 @@ padding-right: 35px;
 
 .Left-sidebar {
 	float: left;
-    width: 20%;
+    width: 17%;
     height: 40%;
-    border-style: dashed;
-    border-color: white;
-    border-width: thin;
+
     margin-left: 3%;
 }
 
@@ -131,7 +134,7 @@ padding-right: 35px;
 
 .LSB-bottomsection{
     border-style: solid;
-    border-color: gray;
+    border-color: #827F8A;
     border-width: thin;
     border-left: none;
     border-top: none;
@@ -188,15 +191,23 @@ font-size: 12px;
 
 .MainCarousel {
 	float: right;
-	width: 75%;
-	height: 340px;
+	width: 80%;
+	height: 400px;
 	padding-right: 15px;
 	padding-left: 15px;
 
 }
 
+.carousel {
+	height: inherit !important;
+}
+
+.carousel-inner {
+	height: inherit !important;
+}
 .Carousel-content {
-	height: 320px;
+	height: inherit;
+
 }
 
 
@@ -204,6 +215,7 @@ font-size: 12px;
  	display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 
@@ -211,14 +223,20 @@ font-size: 12px;
 	color: #FFD700;
 }
 
+.carousel-caption span {
+	text-shadow: none;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
 
 .Right-appcontent {
 	float: right;
     width: 78%;
     height: 600px;
-    border-style: dashed;
+  /*  border-style: dashed;
     border-color: black;
-    border-width: thin;
+    border-width: thin; */
     margin-right: 15px;
     margin-top: 15px;
 
@@ -227,22 +245,22 @@ font-size: 12px;
 .Row-appcontent {
 	border-bottom: 150px;
 	width: 90%;
-	border-color: black;
+	/* border-color: black;
 	border-width: thin;
-	border-style: dashed;
+	border-style: dashed; */
 	margin: auto;
     margin-top: 2%;
     margin-bottom: 4%;
-    height: 40%;
+    height: 36%;
 
 }
 
 .Appbox {
 	width: 20%;
 	height: 100%;
-	border-color: black;
+	/*border-color: black;
 	border-width: thin;
-	border-style: dashed;
+	border-style: dashed; */
 	float: left;
 	margin-left: 6.65%;
 	position: relative;
@@ -255,7 +273,7 @@ font-size: 12px;
 .Appbox-blue {
 width: 100%;
 height: 34%;
-background-color: blue;
+background-color: #2041A5;
 
 }
 .Appbox-white {
@@ -267,12 +285,73 @@ background-color: white
 .Appicon {
 width: 45%;
 height: 34%;
-	border-color: black;
-	border-width: thin;
-	border-style: dashed;
+    border-color: #FFD700;
+    border-style: solid;
+    border-width: 5px;
 	margin: auto;
 	top: 15%;
     right: 29%;
     position: absolute;
-    background-color: green;
+    border-radius: 12px;
 }
+
+.Appicon img {
+    width: 100%;
+    height: 100%;
+}
+
+.Appbox-info {
+    height: 100%;
+    width:  100%;
+    padding-top: 26%;
+    text-align: center;
+    line-height: 1.8;
+    position: relative;
+
+}
+
+.Downloadlink{
+color: green;
+ position: absolute;
+    bottom: 0;
+   right: 0;
+    left: 0;
+}
+
+.Appname {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.Appreview-stars img {
+    height: 40%;
+    width: 45%;
+    margin-top: -13px;
+}
+
+.Row-apptitle {
+    margin-left: 45px;
+    font-size: 2.0em;
+    color: #827F8A;
+    height: 5%;
+
+}
+
+.carousel-indicators .active {
+	background-color: #2041A5;
+}
+
+.Morecontent-buttom {
+width: 30%;
+    height: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2041A5;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
