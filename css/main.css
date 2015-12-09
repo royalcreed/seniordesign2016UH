@@ -359,6 +359,48 @@ font-size: 12px;
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+.Apppage {
+	height: 700px;
+	width: 60%;
+   /* border-color: black;
+    border-style: dashed;
+    border-width: 1px;*/
+    float: left;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.Apppage-right {
+	height: 1350px;
+	width: 14%;
+   /* border-color: black;
+    border-style: dashed;
+    border-width: 1px;*/
+    float: left;
+}
+
+.App-name {
+    color: white;
+    background-color: blue;
+    width: 10%;
+}
+
+.Appbox-apppage {
+    width: 90%;
+    height: 15%;
+    float: left;
+    position: relative;
+    margin-bottom: 20%;
+    margin-left: 5%; 
+    margin-right: 5%;
+
+}
+
+
+>>>>>>> origin/master
 
 .Apppage {
 	height: 700px;
@@ -371,6 +413,7 @@ font-size: 12px;
     margin-left: 3%;
 }
 
+<<<<<<< HEAD
 .App-page-center {
 	width: 14%;
 	height: 15%;
@@ -425,4 +468,22 @@ font-size: 12px;
 	margin-top: 1%;
 	position: relative;
 	background-color: white;
+=======
+.container {
+    width: 102%;
+    height: 200%;
+    margin-bottom: 50%;
+    margin-left: -1%;
+    margin-right: 5%;
+}
+
+div.Appbox:hover{
+outline: 5px solid gray;
+outline-offset: 10px;
+}
+
+div.Appbox-apppage:hover{
+outline: 5px solid gray;
+outline-offset: 10px;
+>>>>>>> origin/master
 }
