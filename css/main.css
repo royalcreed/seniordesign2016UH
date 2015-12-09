@@ -364,9 +364,9 @@ font-size: 12px;
 .Apppage {
 	height: 700px;
 	width: 60%;
-    border-color: black;
+   /* border-color: black;
     border-style: dashed;
-    border-width: 1px;
+    border-width: 1px;*/
     float: left;
     margin-right: 3%;
     margin-left: 3%;
@@ -375,9 +375,9 @@ font-size: 12px;
 .Apppage-right {
 	height: 1350px;
 	width: 14%;
-    border-color: black;
+   /* border-color: black;
     border-style: dashed;
-    border-width: 1px;
+    border-width: 1px;*/
     float: left;
 }
 
@@ -396,4 +396,25 @@ font-size: 12px;
     margin-left: 5%; 
     margin-right: 5%;
 
+}
+
+
+
+
+.container {
+    width: 102%;
+    height: 200%;
+    margin-bottom: 50%;
+    margin-left: -1%;
+    margin-right: 5%;
+}
+
+div.Appbox:hover{
+outline: 5px solid gray;
+outline-offset: 10px;
+}
+
+div.Appbox-apppage:hover{
+outline: 5px solid gray;
+outline-offset: 10px;
 }
