@@ -359,8 +359,7 @@ font-size: 12px;
     display: flex;
     align-items: center;
 }
-<<<<<<< HEAD
-=======
+
 
 .Apppage {
 	height: 700px;
@@ -384,7 +383,7 @@ font-size: 12px;
 
 .App-name {
     color: white;
-    background-color: blue;
+    background-color: #2041A5;
     width: 10%;
 }
 
@@ -400,7 +399,7 @@ font-size: 12px;
 }
 
 
->>>>>>> origin/master
+
 
 .Apppage {
 	height: 700px;
@@ -413,7 +412,7 @@ font-size: 12px;
     margin-left: 3%;
 }
 
-<<<<<<< HEAD
+
 .App-page-center {
 	width: 14%;
 	height: 15%;
@@ -431,7 +430,7 @@ font-size: 12px;
 
 .App-name {
     color: white;
-    background-color: blue;
+    background-color: #2041A5;
     width: 10%;
 }
 
@@ -446,16 +445,53 @@ font-size: 12px;
 
 }
 
-.Apppage-title {
-	border-bottom: 5px solid blue;
-	height: 3%;
-	width: 100%;
+.Apptitle-page {
+ 
+    width: 30%;
+    height: 5%;
+    color: white;
+    background-color: #2041A5;
 	
+}
+
+.Apppage-row1 {
+height: 40%;
+width: 90%;
+   border-style: solid;
+    border-color: #2041A5;
+border-width: 0px 0px 3px 0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Apppage-row1-app {
+    width: 25%;
+    height: 90%;
+    float: left;
+
+}
+.Apppage-appinfo {
+    width: 70%;
+    height: 90%;
+    margin-left: 5%;
+float: left;
+}
+
+
+.Apppage-main {
+   border-style: solid;
+    border-color: #2041A5;
+border-width: 6px 0px 0px 0px;
+height: 95%;
+width: 100%;
+padding-top: 40px;
+background-color: white;
+
 }
 
 .Apppage-title1 {
 	color: white;
-	background-color: blue;
+	background-color: #2041A5;
 	width: 20%;
 	height: 100%;
 	font-size: 1.0em;
@@ -467,8 +503,8 @@ font-size: 12px;
 	height: 90%;
 	margin-top: 1%;
 	position: relative;
-	background-color: white;
-=======
+	background-color: white; }
+
 .container {
     width: 102%;
     height: 200%;
@@ -485,5 +521,4 @@ outline-offset: 10px;
 div.Appbox-apppage:hover{
 outline: 5px solid gray;
 outline-offset: 10px;
->>>>>>> origin/master
 }
