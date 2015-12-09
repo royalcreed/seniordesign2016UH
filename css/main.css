@@ -455,21 +455,31 @@ font-size: 12px;
 }
 
 .Apppage-row1 {
-height: 40%;
-width: 90%;
-   border-style: solid;
+    height: 25%;
+    width: 90%;
+    margin-bottom: 34px;
+    border-style: solid;
     border-color: #2041A5;
-border-width: 0px 0px 3px 0px;
-margin-left: auto;
-margin-right: auto;
+    border-width: 0px 0px 3px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Apppage-row1-app {
     width: 25%;
-    height: 90%;
+    height: 100%;
     float: left;
 
 }
+
+
+.row {
+    height: 170%;
+    width: 70%;
+}
+
+
+
 .Apppage-appinfo {
     width: 70%;
     height: 90%;
