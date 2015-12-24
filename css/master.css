@@ -1,0 +1,230 @@
+/*  CSS RESET BELOW DON'T CHANGE
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/************************* BELOW ARE CUSTOM CSS FILES ***************************/
+
+html,body {
+
+   height: 100%;
+   width: 100%;
+
+}
+
+body {
+    background-color: #F1F1F1;
+    font-family: Droid Serif;
+}
+
+/********** Begin header css ***/
+
+.Header {     /* inline ? */
+    background-color: white;
+
+}
+
+.SiteLogo {
+    margin-left: 30px;
+    margin-top: 25px;
+    float: left;
+}
+
+.SiteTitle {
+    float: left;
+    margin-top: 42px;
+    margin-left: 23px;
+    font-size: 25px;
+}
+
+.SearchBox {
+    width: 25%;
+    float: right;
+    margin-top: 3%;
+}
+
+/********** END header css ***/
+
+
+/********** Begin NAV BAR css ***/
+
+.navbar-default {
+    background-color: #286090 !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: orange !important;
+    color: #286090 !important;
+}
+
+/********** END NAV BAR css ***/
+
+
+/********** Begin CAROUSAL css ***/
+
+.carousel-inner{
+  width:100%;
+  min-height: 420px !important;
+  max-height: 440px !important;
+}
+
+/********** END CAROUSAL css ***/
+
+
+
+
+/********** Begin LEFT SIDE BAR css ***/
+.LeftSideBar {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: thin solid gray;
+    border-left: none;
+    margin-left: 10px;
+    max-width: 90%;
+}
+
+.LeftSideBar a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.LeftSideBar a {
+    color:black;
+}
+
+.LeftSideBar ul {
+    margin-top: 5%;
+
+}
+
+.LeftSideBar ul li {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 12px;
+
+}
+/********** END LEFT SIDE BAR css ***/
+
+/********** Begin APP BOXES css ***/
+
+.AppRow {
+padding-bottom: 30px;
+}
+
+#AppColumnTitle {
+    margin-left: 45px;
+    font-size: 2.0em;
+    color: #827F8A;
+}
+
+#AppBox-More {
+     color: white;
+    font-size: 2.0em;
+    padding: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2041A5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.AppBox-Container {
+    height: 260px;
+    position: relative;
+}
+
+.AppBox-TopBlue {
+    width: 100%;
+    height: 34%;
+    background-color: #2041A5;
+
+}
+
+.AppBox-White {
+    width: 100%;
+    height: 66%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.AppBox-Icon {
+    width: 45%;
+    height: 34%;
+    border: 5px solid #FFD700;
+    margin: auto;
+    top: 15%;
+    right: 29%;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.AppBox-Icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.AppBox-White span {
+display: block;
+
+}
+
+.AppBox-Content {
+    align-self: center; 
+    width: 50%; 
+    text-align: center;
+}
+
+
+/********** END APP BOXES css ***/
